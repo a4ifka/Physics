@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Главная" />
+    <item
+        android:id="@+id/formulas"
+        android:title="Формулы" />
+    <item
+        android:id="@+id/reference_material"
+        android:title="Справочный материал" />
+    <item
+        android:id="@+id/personal_area"
+        android:title="Личный кабинет" />
+</menu>
