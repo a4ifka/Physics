@@ -2,6 +2,7 @@ package com.example.physics
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -28,6 +29,7 @@ class MainActivity : AppCompatActivity() {
                     loadFragment(AreaFragment())
                     true
                 }
+                else -> false
             }
         }
     }
